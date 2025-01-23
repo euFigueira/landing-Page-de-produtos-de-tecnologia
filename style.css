@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.content {
+  padding: 2%;
+}
+
+body {
+background-color: black;
+color: #ffffff;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.header-menu-left h2 {
+font-size: 0.8rem;
+color: #9ca3af;
+}
+
+.header-menu-left {
+  width: 48%;
+}
+
+.header-menu-left h1 {
+  font-size: 1.8rem;
+  color:  #ffffff;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.button {
+  color: #ffffff;
+  font-weight: 200;
+  background: linear-gradient(90deg, rgba(19,113,239,1) 0%, rgba(229,57,162,1) 35%);
+  border-radius: 5px;
+  padding: 5px 20px;
+
+}
+
+.header-menu-right img {
+  max-width: 48%;
+  display: block;
+  height: auto;
+}
+
+.header_produtos_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.navigation_header {
+  border-bottom: 1px solid grey;
+}
+
+.navigation_search input {
+  border-radius: 5px;
+  border: none;
+  width: 40%;
+}
+
+.navigation_search {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.vitrine_iphone {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.vitrine_iphone h1 {
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.estrela span {
+  color: grey;
+  font-weight: 200;
+}
+
+.vitrine_iphone .price {
+  color:#22C55E;
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
+.vitrine_iphone .text {
+font-family: "Nunito", sans-serif;
+color: #9CA3AF;
+font-size: 1rem;
+}
+
+.vitrine_iphone .button {
+  padding: 10px 60px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.vitrine_iphone .img_iphone {
+  max-width: 40%;
+}
